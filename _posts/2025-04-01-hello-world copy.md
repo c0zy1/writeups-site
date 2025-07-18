@@ -13,8 +13,6 @@ https://github.com/c0zy1/pwn-scripts/tree/main/pwn-scripts/c-projects/calculator
 
 There you will find calc(compiled binary) and calc.c (C-Sourcecode) and the flag.
 
-If you do the challenge and find any bugs, or have questions, issues or want to give feedback, be sure to comment down below!
-
 Best of Luck.
 
 Timo 
