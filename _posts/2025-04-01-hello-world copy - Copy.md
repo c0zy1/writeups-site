@@ -1,18 +1,13 @@
 ---
-title: "calc - a small challenge written in C"
-date: 2025-04-01 00:00:00 +0800
+title: "ropemporium - challenge 6 'fluff' "
+date: 2025-07-21 00:00:00 +0800
 categories: [C]
-tags: [C, Reverse Engineering]
+tags: [pwn, return-oriented programming]
 ---
 
-So i've written a small C-Program that goes by the name of calc.
+Today i will walk you through ropemporium challenge 6 "fluff".
 
-You can find it, like my other stuff, in my github repo.
+There was nothing fluffy about this challenge as i'd say this is the biggest jump in complexity regarding the ropemporium series.
 
-https://github.com/c0zy1/pwn-scripts/tree/main/pwn-scripts/c-projects/calculator/challenge-calc
-
-There you will find calc(compiled binary) and calc.c (C-Sourcecode) and the flag.
-
-Best of Luck.
-
-Timo 
+1. First glance
+    ![checksec](/assets/ropemporium fluff/rabin2.png)
