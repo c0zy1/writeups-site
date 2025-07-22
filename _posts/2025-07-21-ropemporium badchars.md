@@ -8,5 +8,5 @@ tags: [pwn, return-oriented programming]
 This challenge marks the first significant step in terms of difficulty.
 
  First glance
-    
+     ![checksec](/assets/ropemporium badchars/checksec.png)
 
