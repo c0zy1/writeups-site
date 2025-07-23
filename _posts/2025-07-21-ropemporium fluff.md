@@ -31,7 +31,7 @@ We could do something like the following:
 
 Finding the required bytes
 
-There are to methods i found(the python one is from a write up i examined):
+There are two methods i found(the python one is from a write up i examined):
 
 1. manually search in gdb
     ![vmmap](/assets/ropemporium fluff/vmmap.png)

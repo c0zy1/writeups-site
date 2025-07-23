@@ -25,7 +25,7 @@ We therefore have to understand how plt-stubs, got and lazy binding works. All o
     ![static](/assets/ropemporium pivot/static.png)
 
 1. got entry for the not yet resolved foothold_function, this can be confirmed by firing up gdb and disas usefulFunction.
-2. plt stub for foothold_function, when the function gets called for the first time this stub checks dereferences the pointer to check if there is a real adress behind the got entry, if not it calls the linker to resolve it, after that the got entry points to the resolved adress.
+2. plt stub for foothold_function, when the function gets called for the first time this stub dereferences the pointer to check if there is a real adress behind the got entry, if not it calls the linker to resolve it, after that the got entry points to the resolved adress.
 3. offsets of ret2win and foothold_function in the custommade libpivot.so, ret2win
 
  ropper(an example of a few of the gadgets we will use)
@@ -45,15 +45,16 @@ This exploit does the following:
 
 1. using all the static elements we found with readelf, nm, ropper/gdb to prepare all our gadgets.
 2. build a chain(leak_call_chain) that does the following
-    2.1 place footplt(plt stub of foothold_function) at the return adress after the pivot
-    2.2 pop rax; ret; + footgot sends the got entry into rax 
-    2.3 the mov rax gadget will dereference the got entry of foothold after it has been resolved by our first attempt to call it and write the actual adress into rax
-    2.4 pop rbp; ret; + ret2win offset will send our offset to rbp to thenn add this onto rax which contains our foothold_function adress 
-    2.5 we use call rax to call the adress in rax which is exactly the adress of our ret2win
+2.1 place footplt(plt stub of foothold_function) at the return adress after the pivot
+2.2 pop rax; ret; + footgot sends the got entry into rax 
+2.3 the mov rax gadget will dereference the got entry of foothold after it has been resolved by our first attempt to call it and write the actual adress into rax
+2.4 pop rbp; ret; + ret2win offset will send our offset to rbp to thenn add this onto rax which contains our foothold_function adress 
+2.5 we use call rax to call the adress in rax which is exactly the adress of our ret2win
+
 3. we start the process with process(bin.path), receive the prompt and read the adress in integer form for further usage
 4. we send our leak_call_chain
 5. we execute our stack smash with the stack pivot which does the following
-    5.1 pop rax; ret; + addr (this is where our big chain is waiting) will send this adress to rax, after that we exchange rax and rsp and hit a ret so our stack gets transfered to the adress where the rest of our chain is waiting, the ret of this gadget will load the got entry into rip and make it work
+6. pop rax; ret; + addr (this is where our big chain is waiting) will send this adress to rax, after that we exchange rax and rsp and hit a ret so our stack gets transfered to the adress where the rest of our chain is waiting, the ret of this gadget will load the got entry into rip and make it work
 
 Conclusion
 
