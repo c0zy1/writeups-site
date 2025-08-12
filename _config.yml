@@ -14,16 +14,16 @@ timezone: Europe/Berlin
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: c0zy1 # the main title
+title: tp # the main title
 
 tagline: CTF write-ups& more. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  ctf, hacking, write-ups, and more, netsec, infosec, and programming, stuxnet, malware, and more
+  ctf, hacking, write-ups, and more, netsec, infosec, and programming, malware, and more
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://c0zy1.github.io"
+url: "https://exitvector.dev/"
 
 github:
   username: c0zy1 # change to your GitHub username
@@ -34,7 +34,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Timo
+  name: tp
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -129,9 +129,9 @@ assets:
     env: # [development | production]
 
 pwa:
-  enabled: true # The option for PWA feature (installable)
+  enabled: false # The option for PWA feature (installable)
   cache:
-    enabled: true # The option for PWA offline cache
+    enabled: false # The option for PWA offline cache
     # Paths defined here will be excluded from the PWA cache.
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.
