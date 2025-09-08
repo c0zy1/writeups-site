@@ -24,6 +24,8 @@ I was especially fascinated by synaptic transmission and will briefly describe h
 
 ![neuron](/assets/neuroscience/neuron.png)
 
+https://speechneurolab.ca/en/la-transmission-synaptique/
+
 
 ### Synaptic Transmission (Electrical & Chemical)
 
@@ -58,4 +60,9 @@ Neurons communicate through two main mechanisms:
 Working through these fundamentals gave me a solid foundation to understand how the brain operates at its most basic level. What fascinates me most is how small molecular events – like the release of a neurotransmitter – scale up into thoughts, actions, and even entire worldviews.  
 
 This first part was about the building blocks. In the next section, the focus will shift from single neurons and synapses toward larger systems and how they interact to create perception, movement, and ultimately behaviour.
+
+## Sources 
+
+https://speechneurolab.ca/en/la-transmission-synaptique/
+https://nida.nih.gov/research-topics/cocaine#work
 
