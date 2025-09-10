@@ -1,6 +1,6 @@
 ---
 title: "ropemporium - challenge 1 'ret2win' "
-date: 2025-07-21 00:00:00 +0800
+date: 2025-07-21 00:00:00 
 categories: [ropemporium]
 tags: [pwn, return-oriented programming]
 ---

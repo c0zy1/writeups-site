@@ -1,6 +1,6 @@
 ---
 title: "Neuroscience - Part 1 : Fundamentals "
-date: 2025-09-06 00:00:00 +0800
+date: 2025-09-06 00:00:00 
 categories: [Neuroscience]
 tags: [Neuroscience]
 ---
@@ -61,7 +61,7 @@ Working through these fundamentals gave me a solid foundation to understand how 
 
 This first part was about the building blocks. In the next section, the focus will shift from single neurons and synapses toward larger systems and how they interact to create perception, movement, and ultimately behaviour.
 
-## Sources 
+## Further Reading
 
 https://speechneurolab.ca/en/la-transmission-synaptique/
 https://nida.nih.gov/research-topics/cocaine#work

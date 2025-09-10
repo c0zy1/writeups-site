@@ -1,6 +1,6 @@
 ---
-title: "Neuroscience - Digression into Cocaine's Control Flow Hijack of Dopamine Circuits"
-date: 2025-09-07 00:00:00 +0800
+title: "Neuroscience - Cocaine's Control Flow Hijack of Dopamine Circuits"
+date: 2025-09-07 01:00:00 
 categories: [Neuroscience]
 tags: [Cocaine, Dopamine, Addiction, Neuroscience]
 ---
