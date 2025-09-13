@@ -55,8 +55,10 @@ This transcription factor acts as a molecular pace-setter: it regulates clusters
 
 *"One of the genes stimulated by ΔFosB is an enzyme, cyclin-dependent kinase-5 (CDK5), which promotes nerve cell growth."*[^2]
 
+This means that cocaine consumption indirectly triggers the upregulation of genes such as CDK5 through ΔFosB. CDK5 influences structural plasticity in neurons — in this context, not ‘healthy’ growth, but maladaptive remodeling that strengthens the circuits driving compulsive drug-seeking.
+
 Yet, the timescale of ΔFosB alone does not explain why cravings and relapse can occur months or even years after abstinence. A key insight comes from how cocaine reshapes the physical structure of neurons in the nucleus accumbens.  
-Repeated exposure drives the growth of new dendritic spines, creating additional “input ports” for excitatory signals. Animal studies strongly implicate ΔFosB in this structural remodeling.
+Repeated exposure drives the growth of new dendritic spines, creating additional ‘input ports’ for excitatory signals — more ways for neurons to receive stimulation. This enhances the power of drug-related cues, for example when an addicted individual meets an old friend they once used drugs with Animal studies strongly implicate ΔFosB in this structural remodeling.
 
 The result: the nucleus accumbens becomes increasingly sensitive to incoming signals from regions such as the hippocampus and amygdala. When those stored memories of drug use are reactivated, the accumbens is triggered — like a function call in a program — and the probability of that impulse overruling rational decision-making rises with each episode of use.
 

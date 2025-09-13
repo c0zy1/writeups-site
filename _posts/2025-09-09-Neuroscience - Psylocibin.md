@@ -79,7 +79,7 @@ Figure 3a compares resting-state fMRI signals under Psilocybin versus methylphen
 
 Panels 3d and 3e visualize how NGSC changes are not limited to Psilocybin: LSD produces similar effects, suggesting a robust mechanism shared across multiple psychedelic substances.
 
-Finally, panel 3f links these effects to pharmacology. Psilocybin is metabolized into Psilocin, which alters functional connectivity most strongly in brain regions rich in 5-HT2A receptors.  These receptors are enriched in association cortex, including DMN regions, *"frequently associated with neuropsychiatric disorders34,35,87,88,89,90,91, and in a region of the anterior and middle hippocampus associated with the self29,92 and the present moment93." [^1]
+Finally, panel 3f links these effects to pharmacology. Psilocybin is metabolized into Psilocin, which alters functional connectivity most strongly in brain regions rich in 5-HT2A receptors. These receptors are enriched in association cortex, including DMN regions, *"frequently associated with neuropsychiatric disorders34,35,87,88,89,90,91, and in a region of the anterior and middle hippocampus associated with the self29,92 and the present moment93." [^1]
 
 ## The science behind it 3 : Persistent effects on hippocampal–cortical FC
 
