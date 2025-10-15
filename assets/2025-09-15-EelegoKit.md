@@ -5,7 +5,7 @@ categories: [Embedded Systems]
 tags: [Eelego, Pins, electronics]
 ---
 
-A few weeks ago i bought the eelego beginners kit and have so far done 20/24 exercises. 
+A few weeks ago i bought the eelego beginners kit and have so far done almost all exercises. 
 
 In this post i'll just show you some of the pictures i took while putting together the boards and give you a short review on why it is definitely worth it to invest those 37€ and some time to get a feeling for hardware, pins etc.
 
